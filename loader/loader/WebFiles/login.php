@@ -10,7 +10,7 @@ if($login == 'admin' && $password == 'admin' && !empty($login) && !empty($passwo
 } 
 else 
 {
-$URL="https://t.me/unknowncheat_bot";
+$URL="https://google.com";
 header ("Location: $URL"); 
 
 }
