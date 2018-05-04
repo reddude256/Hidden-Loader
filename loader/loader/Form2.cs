@@ -66,7 +66,7 @@ namespace Name
             try
             {
                 String password = "log=admin&pas=admin";
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://unknowncheat.maxmizban.com/login.php");
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://YourSite.You/login.php");
                 request.UserAgent = "Opera/9.80";
                 request.Method = "POST";
                 request.ContentType = "application/x-www-form-urlencoded";
@@ -138,8 +138,8 @@ namespace Name
 
         private void flatButton2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Telegram : @UnknownCheat_Bot", "Support", MessageBoxButtons.OK);
-            Process.Start("http://t.me/unknowncheat_bot");
+            MessageBox.Show("Site : YourSite.You", "Support", MessageBoxButtons.OK);
+            Process.Start("http://YourSite.You");
 
         }
 
