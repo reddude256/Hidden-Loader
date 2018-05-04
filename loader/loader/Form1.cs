@@ -49,7 +49,7 @@ namespace Hidden
 
             WebClient client = new WebClient();
 
-           string url = "http://unknowncheat.maxmizban.com/status.php";
+           string url = "http://YourSite.You/status.php";
             byte[] html = client.DownloadData(url);
             UTF8Encoding utf = new UTF8Encoding();
             string status = utf.GetString(html);
@@ -75,7 +75,7 @@ namespace Hidden
 
 
 
-            string urll = "http://unknowncheat.maxmizban.com/version.php"; 
+            string urll = "http://YourSite.You/version.php"; 
             byte[] htmll = client.DownloadData(urll);
             UTF8Encoding utfl = new UTF8Encoding();
             string update = utfl.GetString(htmll);
@@ -137,7 +137,7 @@ namespace Hidden
 
         WebClient client = new WebClient();
 
-            string url = "http://unknowncheat.maxmizban.com/version.php"; 
+            string url = "http://YourSite.You/version.php"; 
             byte[] html = client.DownloadData(url);
             UTF8Encoding utf = new UTF8Encoding();
             string version = utf.GetString(html); 
@@ -150,7 +150,7 @@ namespace Hidden
             }
             else
             {
-                client.DownloadFile("http://unknowncheat.maxmizban.com/UnknownCheat.exe", "UnknownCheat.exe"); // loader name
+                client.DownloadFile("http://YourSite.You/UnknownCheat.exe", "UnknownCheat.exe"); // loader name
                 MessageBox.Show("Successfully Updated.");
                 Process.Start("cmd.exe",
                   "/C choice /C Y /N /D Y /T 3 & Del UnknownCheat.exe " + Application.ExecutablePath); // delete , and download new loader
@@ -241,7 +241,7 @@ namespace Hidden
 
             WebClient client = new WebClient();
 
-            string url = "http://unknowncheat.maxmizban.com/new.php";  // New Cheat Option
+            string url = "http://YourSite.You/new.php";  // New Cheat Option
             byte[] html = client.DownloadData(url);
             UTF8Encoding utf = new UTF8Encoding();
             string taghirat = utf.GetString(html);
