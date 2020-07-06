@@ -1,6 +1,9 @@
-# Hidden-Loader
+Status.php : 1 = detected - 2 = undetected
+new.php : Cheat new update changes
+Version.php : Cheat version ( if version not correct, cheat will update )
+db.php : username|HWID
 
-How to use : 
-1-Upload WebFiles
-2-Put your URL on loader
-3-Add your DLL to resource file
+Toturial:
+-Upload WebFiles
+-Put your URL on loader
+-Add your DLL to resource file
